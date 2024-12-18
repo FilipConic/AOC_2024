@@ -1,5 +1,4 @@
 import System.IO (hSetBuffering, stdout, BufferMode(NoBuffering))
-import GHC.Read (readField, list)
 import Data.Char (digitToInt, isDigit)
 
 findMax::[Int] -> Int
